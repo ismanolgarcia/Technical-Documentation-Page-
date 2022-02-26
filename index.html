@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Markdown</title>
+  </head>
+  <body>
+
+    <nav id="navbar">
+    <header>Markdown</header>
+      <div class="link_container">
+        <a href="#What_is_Markdown?" class="nav-link">What is Markdown?</a>
+        <a href="#Main_use_of_Markdown" class="nav-link">Main uses of Markdown</a>
+        <a href="#Markdown_syntax" class="nav-link">Markdown syntax</a>
+        <a href="#Header" class="nav-link">Header</a>
+        <a href="#Paragraph" class="nav-link">Paragraph</a>
+        <a href="#Lists" class="nav-link">Lists</a>
+        <a href="#Cite" class="nav-link">Cite</a>
+        <a href="#Code_block" class="nav-link">Code Block</a>
+        <a href="#Links" class="nav-link">Links</a>
+        <a href="#Image" class="nav-link">Image</a>
+        <a href="#Skip_Markdown" class="nav-link">Skip Markdown</a>
+        <a href="#Reference" class="nav-link">Reference</a>
+      </div>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="What_is_Markdown?">
+        <header>What is Markdown?</header>
+        <article>
+          <p>
+            Markdown is a lightweight markup language created by John Gruber
+            that strives for maximum readability and ease of publication in both
+            its input and output forms, drawing inspiration from many existing
+            conventions for marking up email messages using plain text. It is
+            distributed under the BSD license and is distributed as a plugin (or
+            at least available) in different content management systems (CMS).
+            Markdown converts marked up text into XHTML documents using
+            html2text created by Aaron Swartz. Markdown was originally
+            implemented in Perl by Gruber, but has since been translated into a
+            multitude of programming languages, including PHP, Python, Ruby,
+            Java, and Common Lisp.
+          </p>
+        </article>
+      </section>
+
+      <section class="main-section" id="Main_uses_of_Markdown">
+        <header>Main uses of Markdown</header>
+        <article>
+          <p>
+            Markdown is a lightweight markup language created by John Gruber
+            that strives for maximum readability and ease of publication in both
+          </p>
+          <ul>
+            <li>WordPress</li>
+            <li>Trello</li>
+            <li>Notion</li>
+            <li>Telegram</li>
+            <li>Gmail</li>
+            <li>Hashnode</li>
+            <li>Github</li>
+            <li>Etc.....</li>
+          </ul>
+          <p>
+            Just to mention the above but there are more and more platforms that
+            use Markdown for publications. But the main reason you should learn
+            Markdown is for code documentation, I cite one of the examples that
+            Github uses Markdown for its READEM.md file.
+          </p>
+        </article>
+      </section>
+
+      <section class="main-section" id="Markdown_syntax">
+        <header>Markdown syntax</header>
+        <article>
+          <p>
+            The best way to understand markdown is by looking at examples like the one below.
+          </p>
+          <code>
+            ## Title
+            
+            ### Subtitle
+
+            This is an example of text that gives input to a generic list of elements:
+              - Element 1
+              - Element 2
+              - Element 3
+            This is an example of text that gives input to a numbered list:
+              1. Element 1
+              2. Element 2
+              3. Element 3
+            Text in Markdown can be formatted as **bold** or *italic* in a very simple way.              
+          </code>
+          <p>
+            As you can see, one of the objectives for which Markdown was designed is perfectly fulfilled, and that is to make the publications as readable as possible.
+              
+            Another of the objectives of Markdown is that you can publish the documents “as they are”. It doesn't matter if the end result you need is HTML, a PDF or Rich Text Format (RTF); since you can always obtain these formats through a converter, or through applications compatible with Markdown.
+          </p>
+            </article>
+      </section>
+
+      <section class="main-section" id="Header">
+        <header>Header</header>
+        <article>
+          <p>
+          # Hashes are one of the methods used in Markdown to create headings. You must use them by adding one for each level.
+          </p>
+          <code>
+            # Header 1
+        
+            ## Header 2
+
+            ### Header 3
+
+            #### Header 4
+
+            ##### Header 5
+
+            ###### Header 6
+          </code>
+        </article>
+      </section>
+
+      <section class="main-section" id="Paragraph">
+        <header>Paragraph</header>
+        <article>
+          <p>
+            To generate a new paragraph in Markdown simply separate the text by a blank line (pressing enter twice)
+
+            Like HTML, Markdown doesn't support double blank lines, so if you try to render them they will be converted to a single line when rendered.
+            
+            To perform a line break and start a sentence on a subsequent line within the same paragraph, you will need to press the space bar twice before pressing enter once.
+
+            For example, if you wanted to write a Haiku poem, it would look like this: <br> <br>
+
+            "Walking with his wet paws, <br>
+            the Sparrow <br>
+            by the wooden terrace» <br> <br>
+            Where each verse has two blank spaces at the end.
+          </p>
+        </article>
+      </section>
+
+      <section class="main-section" id="Lists">
+        <header>Lists</header>
+        <article>
+          <p>
+            Unlike what happens in HTML, generating lists in Markdown is extremely simple. You can meet two types.
+          </p>
+          <p><strong>Unordered lists</strong></p> 
+          <p>
+            To create unordered lists use *asterisks, - dashes, or + plus signs.
+          </p>
+          <code>
+            - List item 1
+            - List item 2
+            * List item 3
+            * List item 4
+            + List item 5
+            + List item 6
+          </code>
+          <p>No matter which element you choose, you can even swap them. They will all look the same when rendered. Example</p>
+          <ul>
+            <li> List item 1</li>
+            <li> List item 2</li>
+            <li> List item 3</li>
+            <li> List item 4</li>
+            <li> List item 5</li>
+            <li> List item 6</li>
+          </ul>
+          <p><strong>Ordered lists</strong></p>
+          <p>To create ordered lists you must use the type syntax: "number." 1.. As with unordered lists, you can also nest or combine them.</p>
+          <code>
+            1. List item 1
+            2. List item 2
+            3. List item 3
+            4. List item 4
+            5. List item 5
+            6. List item 6
+          </code>
+        </article>
+      </section>
+
+      <section class="main-section" id="Cite">
+        <header>Cite</header>
+        <article>
+          <p>
+            Quotes will be generated using the greater than > character at the beginning of the text block.
+          </p>
+          <code>
+            > Your work is going to fill a large part of your life, the only way to be truly satisfied is to do what you think is great work and the only way to do it is to love what you do. If you haven't found it yet, keep looking. As with everything that has to do with the heart, you will know it when you have found it. -Steve Jobs
+          </code>
+          <cite>
+            Your work is going to fill a large part of your life, the only way to be truly satisfied is to do what you think is great work and the only way to do it is to love what you do. If you haven't found it yet, keep looking. As with everything that has to do with the heart, you will know it when you have found it. 
+            -Steve Jobs
+          </cite>
+        </article>
+      </section>
+
+      <section class="main-section" id="Code_block">
+        <header>Code block</header>
+        <article>
+          <p>
+            If you want to create an entire block containing code. All you have to do is enclose said paragraph between two lines formed by three <em>~</em> tildes or with three <em>`</em> grave accents.
+          </p>
+          <code>
+          ```
+          Console.log("Hello World");
+          ```
+          </code>
+        </article>
+      </section>
+
+      <section class="main-section" id="Links">
+        <header>Links</header>
+        <article>
+          <p>
+          Adding links to a publication, more than common, today is something almost mandatory. With Markdown you will have several ways to do it.
+
+          <strong>Links or online links </strong>
+          They are the links of a lifetime. As the name suggests, they are in line with the text.
+          They are created by writing the linked word or text between [] brackets, and the link in question between () parentheses.
+          </p>
+          <code>[Free Code Camp](https://www.freecodecamp.org/)</code>
+        </article>
+        <p><strong>Links or links for reference</strong>
+          The disadvantage of the previous method is that if you use links that are too complex or long, they can make it difficult for you to read your text.
+
+          To solve it and create your content in a more orderly way you can generate referral links.
+          
+          This means that in your text you will link specific words or codes (made up of letters and/or numbers), which you will have defined as certain URLs in another more remote place in your document.
+        </p>
+        <code>
+          [Free Code Camp]:https://www.freecodecamp.org/
+        </code>
+      </section>
+
+      <section class="main-section" id="Image">
+        <header>Image</header>
+        <article>
+          <p>
+            Inserting an image with Markdown is done almost identically to inserting links.
+
+            Only in this case, you'll need to add a ! exclamation at the beginning and the link will be none other than the location of the image.
+          </p>
+          <code>
+              ![Codign](https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?cs=srgb&dl=pexels-pixabay-270348.jpg&fm=jpg)
+          </code>
+          <p>
+            The alt text is what would be displayed if the image load failed.
+
+            You can also add an alternate title by enclosing it at the end of the path. This would be the title displayed when you leave the mouse cursor over the image.
+          </p>
+        </article>
+      </section>
+
+      <section class="main-section" id="Skip_Markdown">
+        <header>Skip Markdown</header>
+        <article>
+        <p>
+          If you have come this far, you are probably wondering how I managed to write certain symbols such as * asterisks or _ underscores, without Markdown interpreting them to convert them to bold, italics...
+
+          This is very simple, since in this language there is a star element to specify that everything you write next is not interpreted as Markdown.
+          
+          This is the backslash \.
+          
+          Writing it right in front of any of the elements that you will see below, they will not have an effect when they become bold, italics, links...
+        </p>
+        <code>
+          \  backslash
+          ` reverse accent
+          * asterisk
+          _  underscore
+          {} keys
+          [] brackets
+          () parentheses
+          # pad
+          + plus sign
+          -  screenplay
+          . point
+          ! exclamation
+        </code>
+        </article>
+      </section>
+
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <p>
+            All the documentation in this page is taken from <a href="https://markdown.es/editores-markdown/" target="_blank" rel="noopener noreferrer">markdown.es</a>
+          </p>
+        </article>
+      </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+  </body>
+</html>
